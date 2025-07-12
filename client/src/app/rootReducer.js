@@ -1,0 +1,23 @@
+import { combineReducers } from "@reduxjs/toolkit";
+import authReducer from "../features/authSlice";
+import { authApi } from "@/features/api/authApi";
+import { courseApi } from "@/features/api/courseApi";
+import { purchaseApi } from "@/features/api/purchaseApi";
+import { courseProgressApi } from "@/features/api/courseProgressApi";
+import { messageApi } from "@/features/api/messageApi";
+
+//import { recommendedCourseApi } from "@/features/api/recommendedCoursesApi";
+//import { quizApi } from "@/features/api/quizApi";
+
+const rootReducer = combineReducers({
+  [authApi.reducerPath]: authApi.reducer,
+  [courseApi.reducerPath]: courseApi.reducer,
+  [purchaseApi.reducerPath]: purchaseApi.reducer,
+  [courseProgressApi.reducerPath]: courseProgressApi.reducer,
+  [messageApi.reducerPath]: messageApi.reducer, // Ajout
+
+  //[quizApi.reducerPath]: quizApi.reducer,
+
+  auth: authReducer,
+});
+export default rootReducer;
