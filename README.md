@@ -45,8 +45,6 @@ Edemy/
 
 ---
 
-## 🚀 Run Project
-
 # Frontend
 cd client
 npm install
