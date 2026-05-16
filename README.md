@@ -47,7 +47,9 @@ Edemy/
 
 # Frontend
 cd client
+
 npm install
+
 npm start
 
 # Backend
