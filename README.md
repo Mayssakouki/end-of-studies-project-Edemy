@@ -38,8 +38,11 @@ It is designed to deliver an interactive, modern, and personalized learning expe
 
 ## 📁 Project Structure
 Edemy/
+
 ├── client/ # React frontend
+
 ├── server/ # Node.js backend API
+
 └── flask-recommendation/ # Flask ML system
 
 
@@ -54,9 +57,12 @@ npm start
 
 # Backend
 cd server
+
 npm install
+
 npm start
 
 # Flask system
 cd flask-recommendation
+
 python app.py
