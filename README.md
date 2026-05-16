@@ -41,7 +41,9 @@ Edemy/
 
 ├── client/ # React frontend
 
+
 ├── server/ # Node.js backend API
+
 
 └── flask-recommendation/ # Flask ML system
 
@@ -50,6 +52,7 @@ Edemy/
 
 # Frontend
 cd client
+
 
 npm install
 
@@ -64,5 +67,6 @@ npm start
 
 # Flask system
 cd flask-recommendation
+
 
 python app.py
